@@ -1,26 +1,62 @@
 [
   {
     "subject": "History 1st Paper",
-    "chapter": "Ancient Civilization",
-    "question": "সভ্যতা কাকে বলে?",
-    "answer": "মানুষের উন্নত জীবনযাপন, সংস্কৃতি, জ্ঞান ও প্রযুক্তির সমষ্টিকে সভ্যতা বলে।"
+    "chapter": "European Arrival in India",
+    "question": "পর্তুগিজ নাবিকের নাম কি?",
+    "answer": "পর্তুগিজ নাবিকের নাম ভাস্কো দা গামা।"
   },
   {
     "subject": "History 1st Paper",
-    "chapter": "Bangladesh History",
-    "question": "বাংলাদেশ কবে স্বাধীনতা লাভ করে?",
-    "answer": "বাংলাদেশ ১৯৭১ সালের ১৬ ডিসেম্বর স্বাধীনতা লাভ করে।"
+    "chapter": "European Arrival in India",
+    "question": "ভারতে আসার জলপথ কে আবিষ্কার করেন?",
+    "answer": "ভারতে আসার জলপথ আবিষ্কার করেন ভাস্কো দা গামা।"
   },
   {
     "subject": "History 1st Paper",
-    "chapter": "Liberation War",
-    "question": "মুক্তিযুদ্ধ কত সালে হয়?",
-    "answer": "বাংলাদেশের মুক্তিযুদ্ধ ১৯৭১ সালে সংঘটিত হয়।"
+    "chapter": "European Arrival in India",
+    "question": "ইউরোপ থেকে ভারত আসার জলপথ কে আবিষ্কার করেন?",
+    "answer": "ইউরোপ থেকে ভারত আসার জলপথ আবিষ্কার করেন ভাস্কো দা গামা।"
   },
   {
     "subject": "History 1st Paper",
-    "chapter": "Important Leaders",
-    "question": "বঙ্গবন্ধু কে?",
-    "answer": "বঙ্গবন্ধু শেখ মুজিবুর রহমান বাংলাদেশের স্বাধীনতার স্থপতি।"
+    "chapter": "European Arrival in India",
+    "question": "ভাস্কো দা গামা কত সালে ভারতবর্ষে আসেন?",
+    "answer": "ভাস্কো দা গামা ১৪৯৮ সালে ভারতবর্ষে আগমন করেন।"
+  },
+  {
+    "subject": "History 1st Paper",
+    "chapter": "European Arrival in India",
+    "question": "কোন পর্তুগিজ নাবিক প্রথমে ভারতে আসেন?",
+    "answer": "পর্তুগিজ নাবিক ভাস্কো দা গামা প্রথমে ভারতে আসেন।"
+  },
+  {
+    "subject": "History 1st Paper",
+    "chapter": "European Arrival in India",
+    "question": "পর্তুগিজ নাবিক ভাস্কো দা গামা ভারতের কোন বন্দরে উপস্থিত হয়েছিলেন?",
+    "answer": "ভাস্কো দা গামা ১৪৯৮ সালের ২০ মে ভারতের পশ্চিম উপকূলে কালিকট বন্দরে উপস্থিত হয়েছিলেন।"
+  },
+  {
+    "subject": "History 1st Paper",
+    "chapter": "European Trading Companies",
+    "question": "দিনেমার কোন কোম্পানি গঠনের মাধ্যমে ভারতবর্ষে ব্যবসা শুরু করেন?",
+    "answer": "দিনেমাররা ডেনিস ইস্ট ইন্ডিয়া কোম্পানি গঠনের মাধ্যমে ভারতবর্ষে ব্যবসা শুরু করেন।"
+  },
+  {
+    "subject": "History 1st Paper",
+    "chapter": "European Arrival in India",
+    "question": "ভারতবর্ষে সবশেষ আগমন করে কারা?",
+    "answer": "ভারতবর্ষে সবশেষ আগমন করে ফরাসি জাতি।"
+  },
+  {
+    "subject": "History 1st Paper",
+    "chapter": "European Peoples",
+    "question": "কোন দেশের অধিবাসীরা ওলন্দাজ নামে পরিচিত?",
+    "answer": "হল্যান্ডের অধিবাসীরা ওলন্দাজ নামে পরিচিত।"
+  },
+  {
+    "subject": "History 1st Paper",
+    "chapter": "Portuguese Administration",
+    "question": "সর্বশ্রেষ্ঠ পর্তুগিজ গভর্নর কে ছিলেন?",
+    "answer": "সর্বশ্রেষ্ঠ পর্তুগিজ গভর্নর আফোনসো দে আলবুকার্ক ছিলেন।"
   }
-]	
+]

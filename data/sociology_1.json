@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "subject": "Sociology 1st Paper",
+    "chapter": "Introduction to Sociology",
+    "question": "সমাজবিজ্ঞানের জনক কে?",
+    "answer": "সমাজবিজ্ঞানের জনক Auguste Comte।"
+  },
+  {
+    "subject": "Sociology 1st Paper",
+    "chapter": "Introduction to Sociology",
+    "question": "Sociology শব্দটি উৎপত্তি হয়েছে কত সালে?",
+    "answer": "Sociology শব্দটি ১৮৩৯ সালে উৎপত্তি হয়েছে।"
+  },
+  {
+    "subject": "Sociology 1st Paper",
+    "chapter": "Introduction to Sociology",
+    "question": "কে সর্বপ্রথম Sociology শব্দটি ব্যবহার করেন?",
+    "answer": "Auguste Comte সর্বপ্রথম Sociology শব্দটি ব্যবহার করেন।"
+  },
+  {
+    "subject": "Sociology 1st Paper",
+    "chapter": "Introduction to Sociology",
+    "question": "কোন শব্দ থেকে Sociology শব্দের উৎপত্তি?",
+    "answer": "ল্যাটিন শব্দ socius এবং গ্রিক শব্দ Logos এর সমন্বয়ে Sociology শব্দটি গঠিত।"
+  },
+  {
+    "subject": "Sociology 1st Paper",
+    "chapter": "Introduction to Sociology",
+    "question": "socius কোন ভাষার শব্দ?",
+    "answer": "socius ল্যাটিন ভাষার শব্দ।"
+  },
+  {
+    "subject": "Sociology 1st Paper",
+    "chapter": "Introduction to Sociology",
+    "question": "Logos কোন ভাষার শব্দ?",
+    "answer": "Logos গ্রিক ভাষার শব্দ।"
+  },
+  {
+    "subject": "Sociology 1st Paper",
+    "chapter": "Introduction to Sociology",
+    "question": "socius শব্দের অর্থ কি?",
+    "answer": "socius শব্দের অর্থ সঙ্গী।"
+  },
+  {
+    "subject": "Sociology 1st Paper",
+    "chapter": "Introduction to Sociology",
+    "question": "Logos শব্দটির অর্থ কি?",
+    "answer": "Logos শব্দটির অর্থ জ্ঞান বা বিশেষ জ্ঞান।"
+  }
+]
