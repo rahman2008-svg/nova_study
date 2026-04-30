@@ -1,55 +1,57 @@
 import os
 import json
-import re
 
 DATA_PATH = "data"
 CACHE = []
 
 
-def normalize(text):
-    text = text.lower()
-    text = re.sub(r"[^\u0980-\u09FFa-zA-Z0-9 ]", "", text)
-    return text
-
-
+# ---------------------------
+# LOAD ALL DATA
+# ---------------------------
 def load_data():
     all_data = []
 
     for file in os.listdir(DATA_PATH):
         if file.endswith(".json"):
-            try:
-                with open(os.path.join(DATA_PATH, file), "r", encoding="utf-8") as f:
-                    data = json.load(f)
+            print("Loading:", file)
 
-                    if isinstance(data, list):
-                        all_data.extend(data)
-            except:
-                pass
+            with open(os.path.join(DATA_PATH, file), "r", encoding="utf-8") as f:
+                try:
+                    data = json.load(f)
+                    all_data.extend(data)
+                except Exception as e:
+                    print("Error in", file, e)
 
     return all_data
 
 
-def reload_data():
-    global CACHE
-    CACHE = load_data()
-    print("🧠 Brain reloaded! Total:", len(CACHE))
+# ---------------------------
+# SMART SCORING ENGINE
+# ---------------------------
+def smart_score(query, text):
+    query = query.lower()
+    text = text.lower()
 
+    q_words = set(query.split())
+    t_words = set(text.split())
 
-def score(q, a):
-    q = normalize(q)
-    a = normalize(a)
+    score = len(q_words & t_words)
 
-    q_words = set(q.split())
-    a_words = set(a.split())
-
-    score = len(q_words & a_words)
-
-    if q in a:
+    # exact phrase boost
+    if query in text:
         score += 5
+
+    # word match boost
+    for q in q_words:
+        if q in text:
+            score += 1
 
     return score
 
 
+# ---------------------------
+# GET BEST ANSWER
+# ---------------------------
 def get_answer(query):
     global CACHE
 
@@ -57,13 +59,36 @@ def get_answer(query):
     best_score = 0
 
     for item in CACHE:
-        s = score(query, item.get("question", ""))
+        question = item.get("question", "")
+        score = smart_score(query, question)
 
-        if s > best_score:
-            best_score = s
+        if score > best_score:
+            best_score = score
             best = item
 
     if best:
-        return f"{best.get('subject','')}\n{best['question']}\n{best['answer']}"
+        return best.get("answer", "No answer found")
 
     return "এই প্রশ্নের উত্তর পাওয়া যায়নি"
+
+
+# ---------------------------
+# DUPLICATE DETECTION
+# ---------------------------
+def is_duplicate(new_q):
+    new_q = new_q.lower()
+
+    for item in CACHE:
+        if item.get("question", "").lower() == new_q:
+            return True
+
+    return False
+
+
+# ---------------------------
+# RELOAD BRAIN (AUTO UPDATE)
+# ---------------------------
+def reload_data():
+    global CACHE
+    CACHE = load_data()
+    print("🧠 Brain loaded:", len(CACHE), "items")

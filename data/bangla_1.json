@@ -1,5 +1,5 @@
 [
-  # 🟢 Short Q&A
+ f064172 (Add Bangla study data + updated AI brain)
   {
     "type": "qa",
     "subject": "বাংলা ১ম",
@@ -91,7 +91,10 @@
     "answer": "প্রায় ৩,০০০+ গান।"
   },
 
+ HEAD
   # 🔵 Long Q&A
+
+ f064172 (Add Bangla study data + updated AI brain)
   {
     "type": "qa",
     "subject": "বাংলা ১ম",
